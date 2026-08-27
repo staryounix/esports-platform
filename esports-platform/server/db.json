@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uid": "#ES-0001",
+      "name": "Admin",
+      "email": "admin@esport.com",
+      "password": "admin123",
+      "wallet": 0,
+      "totalMatches": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "totalEarned": 0,
+      "joinDate": "8/26/2026",
+      "status": "active",
+      "phone": "212604084574"
+    },
+    {
+      "id": 1787770463280,
+      "uid": "#ES-0002",
+      "name": "Jejdjd",
+      "email": "admmju@esport.com",
+      "password": "heheheheehrh",
+      "wallet": 0,
+      "totalMatches": 0,
+      "totalWins": 0,
+      "totalLosses": 0,
+      "totalEarned": 0,
+      "joinDate": "8/26/2026",
+      "status": "active",
+      "phone": "0958565"
+    }
+  ],
+  "groupRequests": [],
+  "matchRequests": [],
+  "rechargeRequests": []
+}

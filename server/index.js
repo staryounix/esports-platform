@@ -10,7 +10,6 @@ app.use(express.json());
 
 const dbPath = path.join(__dirname, 'db.json');
 
-// كتقرا البيانات من الملف
 function readData() {
     if (fs.existsSync(dbPath)) {
         return JSON.parse(fs.readFileSync(dbPath, 'utf8'));
@@ -23,7 +22,6 @@ function readData() {
     };
 }
 
-// كتكتب البيانات ف الملف
 function writeData(data) {
     fs.writeFileSync(dbPath, JSON.stringify(data, null, 2));
 }
